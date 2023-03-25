@@ -33,3 +33,18 @@ img {
 #twitter-btn:hover {
   filter: brightness(125%);
 }
+
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .advice-container {
+    padding: 10px;
+  }
+
+  #twitter-btn {
+    padding: 8px;
+  }
+}
