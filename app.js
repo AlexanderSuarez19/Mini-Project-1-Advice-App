@@ -1,4 +1,5 @@
 const adviceText = document.getElementById("advice-text");
+const adviceBtn = document.getElementById("advice-btn");
 
 function getNewAdvice() {
   fetch("https://api.adviceslip.com/advice")
@@ -9,5 +10,9 @@ function getNewAdvice() {
     })
     .catch((error) => console.error(error));
 }
+
+adviceBtn.addEventListener("click", () => {
+  getNewAdvice();
+});
 
 getNewAdvice(); // Load advice when the app starts
