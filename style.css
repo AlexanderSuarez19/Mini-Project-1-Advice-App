@@ -1,4 +1,5 @@
 .container {
+  font-family: "Roboto", sans-serif;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -10,9 +11,28 @@
 }
 
 .advice-container {
-  border: 1px solid black;
+  background-color: #008cba;
+  color: white;
+  border: 2px solid black;
   padding: 20px;
   margin-bottom: 20px;
+  border-radius: 10px;
+}
+#advice-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button#advice-btn {
+  font-family: "Roboto", sans-serif;
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .share-container {
