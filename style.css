@@ -14,3 +14,26 @@
   padding: 20px;
   margin-bottom: 20px;
 }
+
+.share-container {
+  margin-top: 20px;
+}
+
+#twitter-btn {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  background-color: white;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 24px;
+}
+img {
+  height: 30px;
+  width: 30px;
+}
+
+#twitter-btn:hover {
+  filter: brightness(125%);
+}
